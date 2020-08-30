@@ -1,0 +1,32 @@
+.header .container {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: initial;
+	width: 1000px;
+}
+
+.header__right {
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	align-items: center;
+}
+
+.header__right:before {
+	display: block;
+	content: "";
+
+	position: absolute;
+	width: 1px;
+	background-color: var(--c-white);
+	height: 100%;
+	left: 40px;
+	margin: 0 10px;
+}
+
+.header__icons {
+	width: 80px;
+}

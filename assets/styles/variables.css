@@ -1,0 +1,13 @@
+:root {
+	--c-black: #1a1917;
+	--c-white: #fff;
+	--c-orange: #ffb548;
+
+	--c-orange-gradient: linear-gradient(90deg, var(--c-orange), #F3AF34);
+
+	--c-gray: #f4f4f4;
+	--c-gray-dark: #979797;
+
+	--f-base: 'Open Sans', sans-serif;
+	--f-title: 'Bebas Neue', cursive;
+}

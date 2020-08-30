@@ -1,0 +1,28 @@
+.button-continue {
+	border: none;
+	background-color: transparent;
+	color: var(--c-white);
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.button-continue:before {
+	display: block;
+	content: "";
+
+	background-image: url(../img/scroll_down.svg);
+	width: 22px;
+	height: 10px;
+	position: absolute;
+	bottom: -20px;
+	left: 35px;
+}
+
+.button {
+	color: var(--c-black);
+	background: var(--c-orange-gradient);
+	display: inline-block;
+	padding: 15px;
+	border-radius: 4px;
+}
