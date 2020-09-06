@@ -1,0 +1,32 @@
+h1 {
+	font-size: 80px;
+	font-family: var(--f-title);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h4 {
+	font-size: 24px;
+	font-family: var(--f-title);
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+h1 + h4 {
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 33px;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	h1 + h4 {
+		margin-bottom: 12px;
+	}
+}

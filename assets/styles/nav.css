@@ -1,8 +1,7 @@
 .nav {
-	width: 500px;
 	height: 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 
@@ -10,5 +9,21 @@
 	color: var(--c-white);
 	text-transform: uppercase;
 	font-size: 12px;
+	margin-right: 40px;
 }
 
+.nav__link:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1040px){
+	.nav__link {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 879px){
+	.nav {
+		display: none;
+	}
+}

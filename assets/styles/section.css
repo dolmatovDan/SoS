@@ -5,10 +5,32 @@ section {
 	background-position: center;
 	display: flex;
 	align-items: center;
+	padding-bottom: 50px;
 }
 
 section.-hero {
 	background-image: url(../img/hero_bg.jpg);
 	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+	section.-hero {
+		min-height: 620px;
+	}
+}
+
+section.-requirements {
+	background-image: url(../img/Group_2.jpg);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+section.-feedbacks {
+	background-color: var(--c-black);
+	display: flex;
+	position: relative;
+	
 	justify-content: space-between;
 }
