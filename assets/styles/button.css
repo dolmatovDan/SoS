@@ -78,4 +78,9 @@
 	.button-continue {
 		font-size: 12px;
 	}
+
+	.button.-feedbacks {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
 }

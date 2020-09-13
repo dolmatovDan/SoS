@@ -3,3 +3,17 @@
 	left: 121px;
 	bottom: 170px;
 }
+
+@media screen and (max-width: 720px) {
+	.requirements__img {
+		background: url(../img/table_adaptiv.png) no-repeat;
+		width: 470px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.requirements__img {
+		background-image: url(../img/table_adaptiv.png);
+		width: 470px;
+	}
+}

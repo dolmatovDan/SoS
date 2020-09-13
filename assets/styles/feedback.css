@@ -3,18 +3,15 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 390px;
-	position: absolute;
-	left: 120px;
-	bottom: 270px;
+
 }
 
 .feedbacks__right {
 	display: flex;
 	flex-direction: column;
 	width: 500px;
-	right: 80px;
-	bottom: 150px;
-	position: absolute;
+	margin-right: 80px;
+	
 }
 
 .feedbacks__right img {
@@ -23,4 +20,8 @@
 
 .feedbacks__right img:last-child {
 	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 720px) {
+
 }
