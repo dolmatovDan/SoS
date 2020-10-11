@@ -21,15 +21,16 @@ section.-hero {
 }
 
 section.-requirements {
-	background-image: url(../img/Group_2.jpg);
+	background-image: url(../img/requirements_bg.jpg);
 	display: flex;
 	flex-direction: column;
 	position: relative;
 }
 
-section.-feedbacks {
+section.-testimonials {
 	background-color: var(--c-black);
 	display: flex;
 	justify-content: space-between;
+	background-image: url(../img/testimonials_bg.png);
 }
 

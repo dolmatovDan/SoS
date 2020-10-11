@@ -14,9 +14,11 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/section.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/feedback.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/review.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/table.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/requirements.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<section class="section -hero">
@@ -56,7 +58,7 @@
 		</header>
 
 		<div class="container -hero">
-			<div class="content">
+			<div class="content -hero">
 				<h1>Survive at all costs</h1>
 				<h4>Experience new social battle royale game</h4>
 				<a href="" class="button">
@@ -71,25 +73,91 @@
 	<section class="section -requirements">
 		<div class="container -requirements-header">
 			<h4>Can My Computer Run this game?</h4>
-			<h1>System Requirements</h1>
+			<h2>System Requirements</h2>
 		</div>
-		<img src="assets/img/requirements.png" class="requirements__img" alt="">
+		<div class="table">
+
+			<div class="table__cell">
+				<h4 class="table__title">OS:</h4>
+				<p>Windows 7 64-bit only<br>(No OSX support at this time)</p>
+			<div>
+
+			<div class="table__cell">
+				<h4 class="table__title">Processor:</h4>
+				<p>Intel Core 2 Duo @ 2.4 GHZ or<br>AMD Athlon X2 @ 2.8 GHZ</p>
+			<div>
+
+			<div class="table__cell">
+				<h4 class="table__title">Memory:</h4>
+				<p>8 GB RAM</p>
+			<div>
+			<div class="table__cell">
+				<h4 class="table__title">Storage:</h4>
+				<p>8 GB available space</p>
+			<div>
+
+			
+
+		</div>
 	</section>
 
-	<section class="section -feedbacks">
-		<div class="container -feedbacks">
-			<div class="feedbacks__left">
-				<h4>What people think?</h4>
-				<h1>Press quotes</h1>
-				<p>Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
+	<section class="section -testimonials">
+		<div class="container ">
+			<div class="content">
+				<div class="content__left -testimonials">
+					<h4>What people think?</h4>
+					<h2>Press quotes</h2>
+					<p>Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
 
-				<a href="" class="button -feedbacks">Read more testimonials</a>
+					<a href="" class="button -feedbacks">Read more testimonials</a>
+				</div>
+				<div class="content__right ">
+					<div class="review">
+						<div class="review__header">
+							<div class="review__avatar"></div>
+							<div class="review__user">
+								<p class="review__name">Evan Lahti</p>
+								<h5 class="review__media">PC Gamer</h5>
+							</div>
+						</div>
+
+						<p class="review__text">“One of my gaming highlights of the year.”</p>
+						<small class="review__date">October 18, 2018</small>
+
+						<a href="" class="review__twit"></a>
+					</div>
+
+					<div class="review">
+						<div class="review__header">
+							<div class="review__avatar"></div>
+							<div class="review__user">
+								<p class="review__name">Jada Griffin</p>
+								<h5 class="review__media">Nerdreactor</h5>
+							</div>
+						</div>
+
+						<p class="review__text">“The next big thing in the world of streaming and survival games.”</p>
+						<small class="review__date">December 21, 2018</small>
+
+						<a href="" class="review__twit"></a>
+					</div>
+
+					<div class="review">
+						<div class="review__header">
+							<div class="review__avatar"></div>
+							<div class="review__user">
+								<p class="review__name">Aaron Williams </p>
+								<h5 class="review__media">Uproxx</h5>
+							</div>
+						</div>
+
+						<p class="review__text">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+						<small class="review__date">December 24, 2018</small>
+
+						<a href="" class="review__twit"></a>
+					</div>
+				</div>	
 			</div>
-			<div class="feedbacks__right">
-				<img src="assets/img/quote_1.png" alt="">
-				<img src="assets/img/quote_ 2.png" alt="">
-				<img src="assets/img/quote_3.png" alt="">
-			</div>	
 		</div>
 	</section>
 </body>

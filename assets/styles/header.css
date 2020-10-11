@@ -19,11 +19,14 @@
 	height: 30px;
 	right: -31px;
 	top: -5px;
+
 }
 
 .header__menu {
 	position: relative;
 	margin-right: 62px;
+	font-weight: 700;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 1040px){

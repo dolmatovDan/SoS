@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
 	font-size: 80px;
 	font-family: var(--f-title);
 	text-transform: uppercase;
@@ -17,8 +17,16 @@ h1 + h4 {
 	margin-bottom: 30px;
 }
 
+h4 + h2 {
+	margin-bottom: 55px;
+}
+
+h2 + p {
+	margin-bottom: 45px;
+}
+
 @media screen and (max-width: 767px) {
-	h1 {
+	h1, h2 {
 		font-size: 33px;
 	}
 
@@ -28,5 +36,15 @@ h1 + h4 {
 
 	h1 + h4 {
 		margin-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	h4 + h2 {
+		margin-bottom: 10px;
+	}
+
+	h2 + p {
+		margin-bottom: 10px;
 	}
 }
