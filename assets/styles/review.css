@@ -104,3 +104,10 @@
 	}
 
 }
+
+@media screen and (max-width: 1048px) {
+	.review:nth-child(2) {
+		margin-left: 0;
+	}
+
+}
