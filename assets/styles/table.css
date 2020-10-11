@@ -4,36 +4,14 @@
 
 .table p {
 	font-size: 18px;
-	display: block;
-}
-
-.table__cell {
-	position: absolute;
 }
 
 .table {
 	background: url(../img/table.png) no-repeat;
 	width: 576px;
 	height: 404px;
-	position: relative;
 }
 
-.table__cell:nth-of-type(1) {
-	left: 0;
-}
-
-.table__cell:nth-of-type(2) {
-	right: 0;
-}
-
-.table__cell:nth-of-type(3) {
-	right: 0;
-}
-
-.table__cell:nth-of-type(4) {
-	right: 0;
-}
-
-.table__cell:nth-of-type(5) {
-	bottom: 0;
+.table__row{
+	display: flex;
 }

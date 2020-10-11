@@ -64,6 +64,7 @@
 
 .review:nth-child(2) .review__avatar{
 	background: url(../img/review_jada.jpg) no-repeat;
+
 }
 
 .review:nth-child(3) .review__avatar{
@@ -72,6 +73,10 @@
 
 .review{
 	margin-bottom: 20px;
+}
+
+.review:nth-child(2){
+	margin-left: -130px;
 }
 
 .review:nth-child(3){
