@@ -1,0 +1,29 @@
+.about__left {
+	width: 600px;
+	margin-top: 200px;
+}
+
+.about__text {
+	display: inline-block;
+	width: 364px;
+	margin-left: 230px;
+	position: relative;
+}
+
+.about__text:before {
+	display: block;
+	content: "";
+
+	width: 95px;
+	height: 4px;
+	position: absolute;
+	bottom: 0;
+	left: 60px;
+	border-radius: 1px;
+	background-color: var(--c-orange);
+}
+
+@media screen and (max-width: 1250px) {
+	
+
+}
