@@ -14,9 +14,18 @@ section.-hero {
 	justify-content: space-between;
 }
 
-section.section--about {
-	background-image: url(../img/about_bg.jpg);
-	display: flex;
+.section--about {
+	background-image: url(../img/about_bg.png);
+	position: relative;
+}
+
+.section--about__overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.85);
 }
 
 @media screen and (max-width: 767px) {
@@ -45,3 +54,9 @@ section.-testimonials {
 	background-image: url(../img/testimonials_bg.png);
 }
 
+@media screen and (max-width: 920px) {
+
+	.section--about {
+		flex-direction: column;
+	}
+}

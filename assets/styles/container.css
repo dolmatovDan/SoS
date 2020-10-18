@@ -23,6 +23,8 @@
 .container.container--about {
 	display: flex;
 	width: 1200px;
+	z-index: 1;
+	padding: 20px;
 }
 
 @media screen and (max-width: 1039px){
@@ -52,3 +54,9 @@
 	}
 }
 
+@media screen and (max-width: 920px) {
+
+	.container.container--about {
+		flex-direction: column;
+	}
+}
