@@ -54,9 +54,3 @@ section.-testimonials {
 	background-image: url(../img/testimonials_bg.png);
 }
 
-@media screen and (max-width: 920px) {
-
-	.section--about {
-		flex-direction: column;
-	}
-}
