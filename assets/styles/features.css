@@ -1,0 +1,32 @@
+.features__title {
+	color: var(--c-orange);
+	margin-top: 36px;
+	font-size: 36px;
+}
+
+.features__text {
+	max-width: 362px;
+}
+
+.features__subtitle {
+	font-size: 18px;
+	
+}
+
+.features__circle {
+	position: relative;
+}
+
+.features__circle:before {
+	display: block;
+	content: "";
+
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 2px solid var(--c-white);
+	position: absolute;
+	left: -25px;
+	bottom: 17px;
+}
+

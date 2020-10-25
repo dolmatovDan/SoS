@@ -27,6 +27,14 @@
 	padding: 20px;
 }
 
+.container.container--features {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 167;
+	margin-right: 300px;
+	padding: 20px;
+}
+
 @media screen and (max-width: 1039px){
 	.container {
 		width: 880px;
@@ -36,6 +44,10 @@
 @media screen and (max-width: 879px){
 	.container {
 		width: 740px;
+	}
+
+	.container.container--features {
+		margin-right: 100px;
 	}
 }
 
@@ -51,6 +63,10 @@
 
 	.container.-hero h4 {
 		max-width: 250px;
+	}
+
+	.container.container--features {
+		margin-right: 0px;
 	}
 }
 

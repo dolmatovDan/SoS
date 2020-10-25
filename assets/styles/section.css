@@ -28,6 +28,10 @@ section.-hero {
 	background-color: rgba(0,0,0,.85);
 }
 
+.section--features {
+	background-image: url(../img/features_bg.jpg);
+}
+
 @media screen and (max-width: 767px) {
 	section.-hero {
 		min-height: 620px;
