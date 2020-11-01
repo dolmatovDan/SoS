@@ -5,11 +5,14 @@
 
 .subscribes__image {
 	flex-shrink: 0;
+	margin-top: 50px;
 }
 
 .subscribes__right {
 	width: 700px;
 	margin-left: 50px;
+	margin-top: 220px;
+	flex-shrink: 0;
 }
 
 .subscribes__right h2 {

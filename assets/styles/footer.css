@@ -16,3 +16,7 @@
 .footer__title--cg {
 	color: var(--c-gray-dark);
 }
+
+.footer__logo {
+	width: 90px;
+}
