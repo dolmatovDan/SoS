@@ -30,9 +30,35 @@
 .container.container--features {
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 167;
+	margin-top: 167px;
 	margin-right: 300px;
 	padding: 20px;
+}
+
+.container.container--subscribes {
+	display: flex;
+	max-width: 1115px;
+}
+
+.container.container--footer {
+	display: flex;
+	height: 100px;
+	justify-content: space-between;
+	align-self: center;
+	position: relative;
+}
+
+.container--footer::after{
+	display: block;
+	content: "";
+
+	position: absolute;
+	background-color: var(--c-gray-dark);
+	left: 0;
+	right: 0;
+	height: 1px;
+	bottom: -35px;
+
 }
 
 @media screen and (max-width: 1039px){

@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/overrides.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/subscribes.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/nav.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
@@ -20,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/table.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/requirements.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/footer.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -89,39 +91,41 @@
 	</section>
 
 	<section id="requirements" class="section -requirements">
-		<div class="container -requirements-header">
-			<h4>Can My Computer Run this game?</h4>
-			<h2>System Requirements</h2>
-		</div>
-		<div class="table">
-			<div class="table__row">
-				<div class="table__cell">
-					<h4 class="table__title">OS:</h4>
-					<p>Windows 7 64-bit only<br>(No OSX support at this time)</p>
-				</div>
-
-				<div class="table__cell">
-					<h4 class="table__title">Processor:</h4>
-					<p>Intel Core 2 Duo @ 2.4 GHZ or<br>AMD Athlon X2 @ 2.8 GHZ</p>
-				</div>
+		<div class="container container--requirements">
+			<div class="container -requirements-header">
+				<h4>Can My Computer Run this game?</h4>
+				<h2>System Requirements</h2>
 			</div>
+			<div class="table">
+				<div class="table__row">
+					<div class="table__cell">
+						<h4 class="table__title">OS:</h4>
+						<p>Windows 7 64-bit only<br>(No OSX support at this time)</p>
+					</div>
 
-			<div class="table__row">
-				<div class="table__cell">
-					<h4 class="table__title">Memory:</h4>
-					<p>8 GB RAM</p>
+					<div class="table__cell">
+						<h4 class="table__title">Processor:</h4>
+						<p>Intel Core 2 Duo @ 2.4 GHZ or<br>AMD Athlon X2 @ 2.8 GHZ</p>
+					</div>
 				</div>
 
-				<div class="table__cell">
-					<h4 class="table__title">Storage:</h4>
-					<p>8 GB available space</p>
-				</div>
-			</div>
+				<div class="table__row">
+					<div class="table__cell">
+						<h4 class="table__title">Memory:</h4>
+						<p>8 GB RAM</p>
+					</div>
 
-			<div class="table__row">
-				<div class="table__cell">
-					<h4 class="table__title">GRAPHICS:</h4>
-					<p>NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+					<div class="table__cell">
+						<h4 class="table__title">Storage:</h4>
+						<p>8 GB available space</p>
+					</div>
+				</div>
+
+				<div class="table__row">
+					<div class="table__cell">
+						<h4 class="table__title">GRAPHICS:</h4>
+						<p>NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -193,13 +197,63 @@
 				<h4>What’s so special?</h4>
 				<h2>Features</h2>
 				<div class="features__line">
-					<h4 class="features__title"><span class="features__circle">SURVIVE AT ALL COSTS</span></h4>
+					<h4 class="features__title"><span class="features__circle features__circle--first">SURVIVE AT ALL COSTS</span></h4>
 					<p class="features__subtitle">You have 30 minutes to find a relic, signal for extraction, and grabone of three spots on the rescue chopper.</p>
 					<h4 class="features__title"><span class="features__circle">CREATE ALLIES AND ENEMIES</span></h4>
 				</div>
 				<h4 class="features__title"><span class="features__circle">IMPRESS THE AUDIENCE</span></h4>
 			</div>
 		</div>
+	</section>
+
+	<section class="section section--subscribes">
+		<div class="container container--subscribes">
+			<div class="subscribes__image">
+				<img src="assets/img/image_sub.png" alt="">
+			</div>
+			<div class="subscribes__right">
+				<h4>Want to stay in touch?</h4>
+				<h2>newsletter SUBSCRIBE </h2>
+				<p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
+
+				<div class="subscribes__auth">
+					<div class="subscribes__email">
+						<div class="subscribes__title">Your email address</div>
+						<div class="subscribes__subtitle">aliciliniavopir@gmail.com</div>
+					</div>
+
+					<a href="" class="button button--subscribes">Subscribe now</a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container container--footer">
+				<img src="assets/img/logo.png" 
+						 srcset="assets/img/logo@2x.png 2x" 
+						 alt="Project logo here!" 
+						 class="header__logo">
+
+				<nav class="nav">
+					<a href="" class="nav__link">Main</a>
+					<a href="" class="nav__link">About</a>
+					<a href="" class="nav__link">Game Features</a>
+					<a href="#requirements" class="nav__link">System Requirenments</a>
+					<a href="#testimonials" class="nav__link">Quotes</a>
+				</nav>
+
+				<div class="footer__media">
+					<img src="assets/img/twitch.svg" alt="">
+					<img src="assets/img/twitter.svg" alt="">
+					<img src="assets/img/Vector.svg" alt="">
+					<img src="assets/img/facebook.svg" alt="">
+				</div>
+			</div>
+			<div class="footer__title">
+				<p class="footer__title--cg"> © 2018 Outpost Games, Inc. All Rights Reserved</p>
+				<p>Privacy Policy | Terms of Services | Code of Conduct </p>
+			</div>
+		</footer>
 	</section>
 </body>
 </html>

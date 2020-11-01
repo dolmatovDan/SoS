@@ -32,6 +32,11 @@ section.-hero {
 	background-image: url(../img/features_bg.jpg);
 }
 
+.section--subscribes {
+	background-color: var(--c-black-last-page);
+	flex-direction: column;
+}
+
 @media screen and (max-width: 767px) {
 	section.-hero {
 		min-height: 620px;

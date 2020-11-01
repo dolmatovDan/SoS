@@ -61,6 +61,11 @@
 	margin-top: 50px;
 }
 
+.button--subscribes {
+	padding: 17px 50px;
+	margin-left: 15px;
+}
+
 @media screen and (max-width: 767px) {
 	:root {
 		--b-padding: 10px 7px;

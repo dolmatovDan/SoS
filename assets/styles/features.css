@@ -17,7 +17,7 @@
 	position: relative;
 }
 
-.features__circle:before {
+.features__circle::before {
 	display: block;
 	content: "";
 
@@ -30,3 +30,18 @@
 	bottom: 17px;
 }
 
+.features__circle--first::before {
+	background: var(--c-white);
+}
+
+.features__circle--first::after {
+	display: block;
+    content: "";
+    
+    width: 2px;
+    height: 144px;
+    background: var(--c-white);
+    position: absolute;
+    left: -17px;
+    bottom: -121px;
+}
