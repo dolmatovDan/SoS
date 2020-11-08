@@ -38,7 +38,7 @@
 .container.container--subscribes {
 	display: flex;
 	max-width: 1115px;
-	padding: 10px;
+	
 }
 
 .container.container--footer {
@@ -47,6 +47,7 @@
 	justify-content: space-between;
 	align-self: center;
 	position: relative;
+	padding: 10px;
 }
 
 .container--footer::after{

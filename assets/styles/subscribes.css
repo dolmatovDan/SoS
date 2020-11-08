@@ -46,18 +46,20 @@
 }
 
 @media screen and (max-width: 1050px) {
-	.subscribes__auth {
-		display: flex;
-		flex-direction: column;
-	}
 
 	.subscribes__email {
 		max-width: 290px;
+		/*display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;*/
+		margin-bottom: 20px;
 	}
 
-	.subscribes__image {
-		min-width: 230px;
-		min-height: 358px;
+	.subscribes__auth {
+		flex-direction: column;
+		width: 267px;
 	}
+
 }
 

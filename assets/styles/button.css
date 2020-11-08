@@ -101,7 +101,13 @@
 }
 
 @media screen and (max-width: 1050px) {
+	/*.button--subscribes {
+		white-space: nowrap;
+		display: flex;
+		align-items: center;
+	}*/
+
 	.button--subscribes {
-		padding: 17px 43px;
+		margin-left: 0;
 	}
-}
+
