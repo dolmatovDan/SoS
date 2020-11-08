@@ -12,7 +12,7 @@
 	width: 700px;
 	margin-left: 50px;
 	margin-top: 220px;
-	flex-shrink: 0;
+	
 }
 
 .subscribes__right h2 {
@@ -28,7 +28,7 @@
 }
 
 .subscribes__email{
-	width: 273px;
+	width: 267px;
 	height: 60px;
 	background-color: var(--c-black);
 	padding: 5px 20px;
@@ -44,3 +44,20 @@
 	background-color: transparent;
 	color: var(--c-orange);
 }
+
+@media screen and (max-width: 1050px) {
+	.subscribes__auth {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.subscribes__email {
+		max-width: 290px;
+	}
+
+	.subscribes__image {
+		min-width: 230px;
+		min-height: 358px;
+	}
+}
+

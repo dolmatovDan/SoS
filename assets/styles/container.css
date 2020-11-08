@@ -38,6 +38,7 @@
 .container.container--subscribes {
 	display: flex;
 	max-width: 1115px;
+	padding: 10px;
 }
 
 .container.container--footer {
@@ -61,10 +62,11 @@
 
 }
 
-@media screen and (max-width: 1039px){
+@media screen and (max-width: 1040px){
 	.container {
 		width: 880px;
 	}
+
 }
 
 @media screen and (max-width: 879px){

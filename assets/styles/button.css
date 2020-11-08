@@ -62,7 +62,7 @@
 }
 
 .button--subscribes {
-	padding: 17px 50px;
+	padding: 17px 43px;
 	margin-left: 15px;
 }
 
@@ -97,5 +97,11 @@
 	.button.-feedbacks {
 		margin-bottom: 10px;
 		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.button--subscribes {
+		padding: 17px 43px;
 	}
 }
