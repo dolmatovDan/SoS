@@ -100,7 +100,7 @@
 	}
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 580px) {
 	/*.button--subscribes {
 		white-space: nowrap;
 		display: flex;
@@ -109,5 +109,15 @@
 
 	.button--subscribes {
 		margin-left: 0;
+		padding: 17px 20px;
+		max-width: 200px;
 	}
 
+}
+
+@media screen and (max-width: 1050px) {
+	.button--subscribes {
+		margin-left: 0;
+	}
+
+}

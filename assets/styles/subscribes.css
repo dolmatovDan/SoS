@@ -63,3 +63,46 @@
 
 }
 
+@media screen and (max-width: 1050px) {
+	.subscribes__image img {
+		height: 450px;
+	}
+
+	.subscribes__right h2 {
+		font-size: 60px;
+
+	}
+	.subscribes__right {
+		margin-top: 100px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.subscribes__email {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		max-width: 200px;
+	}
+
+	.subscribes__right h2 {
+		font-size: 40px;
+	}
+
+	.subscribes__image  {
+		background-image: url(assets/img/image_sub.png);
+		position: absolute;
+		z-index: -1;
+	}
+
+	.subscribes__right p {
+		font-size: 14px;
+	}
+
+	.subscribes__right {
+		width: 350px;
+		margin-left: 0;
+	}
+}
