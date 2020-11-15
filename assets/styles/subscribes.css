@@ -91,10 +91,8 @@
 		font-size: 40px;
 	}
 
-	.subscribes__image  {
-		background-image: url(assets/img/image_sub.png);
-		position: absolute;
-		z-index: -1;
+	.subscribes__image img {
+		display: none;
 	}
 
 	.subscribes__right p {

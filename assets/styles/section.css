@@ -35,6 +35,9 @@ section.-hero {
 .section--subscribes {
 	background-color: var(--c-black-last-page);
 	flex-direction: column;
+	background: url(../img/image_sub.png) no-repeat;
+	background-size: contain;
+	background-position: left;
 }
 
 @media screen and (max-width: 767px) {
@@ -43,9 +46,11 @@ section.-hero {
 	}
 }
 
-@media screen and (max-width: 767px) {
-	section.section-about {
-		flex-direction: column;
+@media screen and (max-width: 580px) {
+	.section--subscribes {
+		background: url(../img/image_sub.png) no-repeat;
+		background-size: contain;
+		background-position: left;
 	}
 }
 
